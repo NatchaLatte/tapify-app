@@ -23,7 +23,7 @@ export default function Home() {
         pressAudio.currentTime = 0;
         await pressAudio.play();
       }
-    } catch (error) {}
+    } catch (none) {}
   }
 
   return (
