@@ -11,10 +11,8 @@ export default function Home() {
   async function press() {
     try {
       setPopCount(prevCount => prevCount + 1);
-
       setIsShaking(true);
       setTimeout(() => setIsShaking(false), 200);
-
       if (!pressAudio) {
         const audio = new Audio("/asset/audio/press-audio.mp3");
         setPressAudio(audio);
@@ -29,8 +27,7 @@ export default function Home() {
   return (
     <div
       className="flex flex-col justify-between w-screen h-screen"
-      onMouseDown={press}
-      onTouchStart={press}
+      onPointerDown={press}
     >
       <div id="stars"></div>
       <header className="flex flex-col justify-center items-center">
@@ -50,7 +47,7 @@ export default function Home() {
           width={500}
           height={500}
           alt="Character"
-          priority
+          priority={true}
         />
       </main>
     </div>
