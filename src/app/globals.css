@@ -63,6 +63,7 @@ body {
 }
 
 #stars {
+  position: fixed;
   width: 2px;
   height: 2px;
   background: transparent;
