@@ -29,7 +29,6 @@ export default function Home() {
       className="flex flex-col justify-between w-screen h-screen"
       onPointerDown={press}
     >
-      <div id="stars"></div>
       <header className="flex flex-col justify-center items-center">
         <h1 className="text-white font-bold text-stroke text-7xl my-5 antialiased text-center z-10">
           Tapify
