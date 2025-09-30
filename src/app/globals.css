@@ -124,8 +124,8 @@ body {
   content: "";
   position: absolute;
   top: 2000px;
-  width: 100%;
-  height: 2000px;
+  width: 2px;
+  height: 2px;
   background: transparent;
   box-shadow: 1448px 320px #fff, 1775px 1663px #fff, 332px 1364px #fff,
     878px 340px #fff, 569px 1832px #fff, 1422px 1684px #fff, 1946px 1907px #fff,
